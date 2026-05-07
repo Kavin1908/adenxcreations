@@ -18,7 +18,7 @@ export default function About() {
           {/* Left side - Text */}
           <div className="animate-slide-up">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 md:mb-8 text-white">
-              About <span className="gradient-text">AddenX Creations</span>
+              About <span className="gradient-text">AdenX Creations</span>
             </h2>
 
             <p className="text-gray-300 text-base md:text-lg leading-relaxed mb-6">
@@ -26,7 +26,7 @@ export default function About() {
             </p>
 
             <p className="text-gray-400 text-base md:text-lg leading-relaxed mb-8">
-              Founded on the principles of creativity, innovation, and client satisfaction, AddenX Creations partners with businesses to achieve their digital goals. We combine cutting-edge design with strategic thinking to deliver results that matter.
+              Founded on the principles of creativity, innovation, and client satisfaction, AdenX Creations partners with businesses to achieve their digital goals. We combine cutting-edge design with strategic thinking to deliver results that matter.
             </p>
 
             {/* Values */}
