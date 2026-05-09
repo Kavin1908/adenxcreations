@@ -7,9 +7,9 @@ import { Instagram, Twitter, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   const socialLinks = [
-    { icon: Instagram, href: 'https://instagram.com/addenxcreations', label: 'Instagram' },
-    { icon: Twitter, href: 'https://twitter.com/addenxcreations', label: 'Twitter' },
-    { icon: Linkedin, href: 'https://linkedin.com/company/addenxcreations', label: 'LinkedIn' },
+    { icon: Instagram, href: 'https://instagram.com/adenxcreations', label: 'Instagram' },
+    { icon: Twitter, href: 'https://twitter.com/adenxcreations', label: 'Twitter' },
+    { icon: Linkedin, href: 'https://linkedin.com/company/adenxcreations', label: 'LinkedIn' },
   ];
 
   return (

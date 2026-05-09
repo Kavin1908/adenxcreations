@@ -30,8 +30,8 @@ export default function Contact() {
     {
       icon: <Instagram size={28} />,
       title: 'Instagram',
-      value: '@addenxcreations',
-      href: 'https://instagram.com/addenxcreations',
+      value: '@adenxcreations',
+      href: 'https://instagram.com/adenxcreations',
       color: 'text-blue-300',
     },
   ];
