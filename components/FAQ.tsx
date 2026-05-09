@@ -15,7 +15,7 @@ const faqItems: FAQItem[] = [
   },
   {
     question: 'Do you offer revisions?',
-    answer: 'Yes! We include unlimited revisions until you are completely satisfied with the final result. Client satisfaction is our top priority.',
+    answer: 'Yes! We include unlimited revisions until you&apos;re completely satisfied with the final result. Client satisfaction is our top priority.',
   },
   {
     question: 'What is your pricing structure?',

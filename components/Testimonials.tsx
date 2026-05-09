@@ -15,7 +15,7 @@ const testimonials: Testimonial[] = [
   {
     name: 'Sarah Johnson',
     company: 'TechStart Inc.',
-    feedback: 'AdenX Creations transformed our brand entirely. Their team understood our vision and delivered a stunning website and branding package that exceeded expectations.',
+    feedback: 'AddenX Creations transformed our brand entirely. Their team understood our vision and delivered a stunning website and branding package that exceeded expectations.',
     rating: 5,
     color: 'from-blue-500 to-blue-600',
   },

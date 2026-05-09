@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
         {/* Section header */}
         <div className="text-center mb-12 md:mb-16 lg:mb-20">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 text-white">
-            Why Choose <span className="gradient-text">AdenX</span>
+            Why Choose <span className="gradient-text">AddenX</span>
           </h2>
           <p className="text-gray-400 text-base md:text-lg max-w-2xl mx-auto">
             We combine creativity, expertise, and technology to deliver exceptional results that drive real business growth.

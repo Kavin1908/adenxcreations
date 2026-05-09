@@ -24,7 +24,7 @@ export default function Navbar() {
             <div className="w-10 h-10 md:w-12 md:h-12 relative rounded-lg overflow-hidden silver-glow transition-all duration-300">
               <Image
                 src="/adenx-logo.jpg"
-                alt="AddenX Creations"
+                alt="AdenX Creations"
                 fill
                 className="object-cover"
               />
@@ -43,9 +43,12 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <button className="btn-secondary text-sm lg:text-base px-4 md:px-6 py-2 md:py-3">
+            <Link
+              href="#contact"
+              className="btn-secondary text-sm lg:text-base px-4 md:px-6 py-2 md:py-3 block text-center"
+            >
               Get Started
-            </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -70,9 +73,13 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <button className="w-full btn-secondary text-sm py-2">
+            <Link
+              href="#contact"
+              className="w-full btn-secondary text-sm py-2 block text-center"
+              onClick={() => setIsOpen(false)}
+            >
               Get Started
-            </button>
+            </Link>
           </div>
         )}
       </div>

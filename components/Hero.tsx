@@ -111,13 +111,13 @@ export default function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 mb-12 md:mb-16">
-          <button className="btn-primary w-full sm:w-auto flex items-center justify-center space-x-2 group">
+          <a href="#contact" className="btn-primary w-full sm:w-auto flex items-center justify-center space-x-2 group">
             <span>Get Started</span>
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-          </button>
-          <button className="btn-secondary w-full sm:w-auto flex items-center justify-center space-x-2">
+          </a>
+          <a href="#contact" className="btn-secondary w-full sm:w-auto flex items-center justify-center space-x-2">
             <span>Contact Us</span>
-          </button>
+          </a>
         </div>
 
         {/* Floating elements indicator */}
