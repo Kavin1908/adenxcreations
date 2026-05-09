@@ -43,12 +43,6 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="#contact"
-              className="btn-secondary text-sm lg:text-base px-4 md:px-6 py-2 md:py-3 block text-center"
-            >
-              Get Started
-            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -73,13 +67,6 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="#contact"
-              className="w-full btn-secondary text-sm py-2 block text-center"
-              onClick={() => setIsOpen(false)}
-            >
-              Get Started
-            </Link>
           </div>
         )}
       </div>

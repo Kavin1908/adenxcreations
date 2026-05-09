@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import Services from '@/components/Services';
+import ServicesShowcase from '@/components/ServicesShowcase';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import Testimonials from '@/components/Testimonials';
 import About from '@/components/About';
@@ -19,6 +20,9 @@ export default function Home() {
 
       {/* Services Section */}
       <Services />
+
+      {/* Services Showcase Section */}
+      <ServicesShowcase />
 
       {/* Why Choose Us Section */}
       <WhyChooseUs />
